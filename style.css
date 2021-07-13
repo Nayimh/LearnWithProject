@@ -96,6 +96,7 @@ nav .logo img{
     border: 1px solid rgb(240, 230, 230);
     box-shadow: 0.3px 0.3px 0.5px blue;
     
+    
 }
 
 /* Top Player section */
@@ -112,7 +113,7 @@ nav .logo img{
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-    
+    cursor: pointer;
 }
 
 .player img{
@@ -141,6 +142,7 @@ hr{
     align-items: center;
     margin-bottom: 26px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .blog .thumbnail img{
@@ -167,6 +169,7 @@ hr{
 /* Courses style */
 #courses{
     height: 400px;
+    margin-bottom: 20px;
 }
 .courses{
     display: grid;
@@ -181,7 +184,7 @@ hr{
     border: 1px solid rgb(138, 187, 176);
     border-radius: 15px;
     margin-left: 30px;
-   
+    cursor: pointer;
 }
 .course:hover{
     background-color: rgba(138, 187, 176, 0.192);
@@ -217,5 +220,18 @@ height: 104px;
 }
 .course-duration i{
     color: rgb(216, 139, 94);
+}
+/* Footer Section */
+footer{
+    height: 10vh;
+    border-radius: 5px;
+    background-color: black;
+    width: 870px;
+    margin: auto;
+}
+footer p{
+    color: white;
+    text-align: center;
+    align-items: center;
 }
 
